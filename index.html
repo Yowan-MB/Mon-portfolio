@@ -1,0 +1,1145 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <!--  Métadonnées SEO -->
+    <title>Yowan Mberi - Développeur Fullstack</title>
+    <meta name="title"
+        content="Yowan Mberi - Développeur Fullstack">
+    <meta name="description"
+        content="Développeur Fullstack passionné, créant des sites web modernes et réactifs. Découvrez mon portfolio et mon blog pour des conseils tech.">
+    <meta name="keywords"
+        content="Yowan Mberi, Développeur Web, Fullstack, Portfolio, Blog, Tech">
+    <meta name="author"
+        content="Yowan Mberi">
+    <meta name="robots"
+        content="index, follow">
+    <link rel="canonical"
+        href="https://ton-site.com">
+
+
+    <!--  Open Graph pour les réseaux sociaux -->
+    <meta property="og:title"
+        content="Yowan Mberi - Développeur Fullstack">
+    <meta property="og:description"
+        content="Découvrez mon portfolio et mes projets en développement web.">
+    <meta property="og:image"
+        content="https://ton-site.com/assets/images/banner.webp">
+    <meta property="og:url"
+        content="https://ton-site.com">
+    <meta property="og:type"
+        content="website">
+
+    <!--  Twitter Card -->
+    <meta name="twitter:card"
+        content="summary_large_image">
+    <meta name="twitter:title"
+        content="Yowan Mberi - Développeur Fullstack">
+    <meta name="twitter:description"
+        content="Explorez mon portfolio et mes projets en développement web.">
+    <meta name="twitter:image"
+        content="https://ton-site.com/assets/images/banner.webp">
+
+    <!--  Favicon -->
+    <link rel="icon"
+        href="assets/images/vj.webp"
+        type="image/x-icon">
+
+    <!--  Google Fonts -->
+    <link rel="preload"
+        href="https://fonts.googleapis.com/css?family=Rubik&display=swap"
+        as="style">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Rubik&display=swap">
+
+    <!--  Styles CSS -->
+    <link rel="stylesheet"
+        href="assets/css/aos.css">
+    <link rel="stylesheet"
+        href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet"
+        href="assets/css/bootstrap-icons.min.css">
+    <link rel="stylesheet"
+        href="assets/css/style.css">
+    <link rel="preload"
+        href="assets/css/style.css"
+        as="style">
+
+    <!--  Bootstrap Icons préchargé -->
+
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+    <!--  MS Clarity Analytics -->
+    <script type="text/javascript">
+        (function (c, l, a, r, i, t, y) {
+            c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) };
+            t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i;
+            y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+        })(window, document, "clarity", "script", "phycesbqlg");
+    </script>
+</head>
+
+<body data-bs-theme="dark"
+    data-bs-spy="scroll"
+    data-bs-target="#navbar">
+
+    <!-- Préchargeur (affiché avant le chargement du site) -->
+    <div id="preloader"></div>
+
+    <!-- En-tête du site -->
+    <header id="header">
+        <nav id="navbar"
+            class="navbar navbar-expand-md"
+            aria-label="Navigation principale">
+            <div class="container">
+                <!-- Logo principal -->
+                <a href="index.html"
+                    class="navbar-brand logo">
+                    <span>&lt;</span>
+                    <span class="logo-name">Yowan Mberi</span>
+                    <span>/&gt;</span>
+                </a>
+
+                <!-- Menu Offcanvas (mobile) -->
+                <div class="offcanvas offcanvas-end"
+                    tabindex="-1"
+                    id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarMenu">
+                    <div class="offcanvas-header">
+                        <a href="/"
+                            class="offcanvas-title navbar-brand logo"
+                            id="offcanvasNavbarMenu">
+                            <span>&gt;</span>
+                            <span class="logo-name">Yowan Mberi</span>
+                            <span>&gt;</span>
+                        </a>
+                        <button type="button"
+                            class="navbar-toggler"
+                            data-bs-dismiss="offcanvas"
+                            aria-label="Fermer le menu">
+                            <i class="bi bi-x toggle-icon"></i>
+                        </button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav nav-underline justify-content-end flex-grow-1">
+                            <li class="nav-item"><a href="#hero"
+                                    class="nav-link active"
+                                    aria-current="page">Accueil</a></li>
+                            <li class="nav-item"><a href="#about"
+                                    class="nav-link">À propos</a></li>
+                            <li class="nav-item"><a href="#skills"
+                                    class="nav-link">Compétences</a></li>
+                            <li class="nav-item"><a href="#projects"
+                                    class="nav-link">Projets</a></li>
+                            <li class="nav-item"><a href="#contact"
+                                    class="nav-link">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Boutons du header -->
+                <button type="button"
+                    class="btn border-0"
+                    id="switchTheme"
+                    aria-label="Changer de thème">
+                    <i class="bi bi-brightness-high-fill"></i>
+                </button>
+
+                <button class="navbar-toggler border-0"
+                    type="button"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar"
+                    aria-label="Ouvrir le menu">
+                    <i class="bi bi-list toggle-icon"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section id="hero">
+        <div class="container">
+            <div class="row about-content">
+                <div class="col-lg-5 order-lg-2">
+                    <div class="hero-portrait">
+                        <div class="pic"
+                            data-aos="fade-up"
+                            data-aos-delay="600"></div>
+                    </div>
+                </div>
+                <div class="col-lg-7 order-lg-1 hero-content">
+                    <span class="h3"
+                        data-aos="fade-up"
+                        data-aos-delay="0">Bonjour, je suis</span>
+                    <h1 class="name"
+                        data-aos="fade-up"
+                        data-aos-delay="200"><span>Yowan Mberi</span></h1>
+                    <button type="button"
+                        class="btn btn-sm mt-3 mb-3 btn-showcase"
+                        data-aos="fade-up"
+                        data-aos-delay="400">
+                        <i class="bi bi-stars"></i> Développeur Fullstack
+                    </button>
+                    <p class="tagline mb-3"
+                        data-aos="fade-up"
+                        data-aos-delay="600">
+                        <span class="underline">Depuis tout petit,</span> l’informatique me fascine. Cette passion m’a
+                        naturellement conduit vers le
+                        <span class="underline">développement web</span>, où j’allie technique et design pour créer des
+                        expériences interactives et
+                        fluides.
+                    </p>
+                    <!-- Icônes des réseaux sociaux -->
+                    <div class="social-icons pb-2 pt-2 mb-2">
+                        <a href="https://github.com/Yowan-Mb"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="github"
+                            aria-label="Profil GitHub de Yowan Mberi"
+                            data-aos="fade-up"
+                            data-aos-delay="620">
+                            <i class="bi bi-github"></i>
+                        </a>
+                        <a href="https://www.threads.net/@la_legende_mb"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="twitter-x"
+                            aria-label="Profil Twitter de Yowan Mberi"
+                            data-aos="fade-up"
+                            data-aos-delay="640">
+                            <i class="bi bi-twitter-x"></i>
+                        </a>
+                        <a href="https://www.instagram.com/la_legende_mb?igsh=MWMxMW93aWlhZ3RvNA=="
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="instagram"
+                            aria-label="Profil Instagram de Yowan Mberi"
+                            data-aos="fade-up"
+                            data-aos-delay="660">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/ted-bakala-45a759224"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="linkedin"
+                            aria-label="Profil LinkedIn de Yowan Mberi"
+                            data-aos="fade-up"
+                            data-aos-delay="680">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                    </div>
+                    <div class="d-flex call-to-action">
+                        <a href="#contact"
+                            data-aos="fade-up"
+                            data-aos-delay="700">
+                            <button type="button"
+                                class="btn me-4 primary-bg-btn">
+                                <i class="bi bi-envelope"></i> Contactez-moi
+                            </button>
+                        </a>
+                        <a href="#projects"
+                            data-aos="fade-up"
+                            data-aos-delay="800">
+                            <button type="button"
+                                class="btn secondary-bg-btn">
+                                Voir mon portfolio <i class="bi bi-arrow-up-right-circle"></i>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--  Ce que j'aime -->
+    <section id="things-i-love">
+        <div class="container">
+            <h6 class="text-center">
+                <span class="btn btn-sm theme-button theme-text">Centres d'intérêt</span>
+            </h6>
+            <h2 class="section-heading text-center">Ce que j'aime</h2>
+            <div class="row justify-content-center pt-3 gy-4">
+
+                <!--  Design -->
+                <div class="col-lg-4 col-md-6"
+                    data-aos="fade-up">
+                    <div class="card">
+                        <div class="circle-container">
+                            <div class="circle">
+                                <i class="bi bi-droplet-half"
+                                    aria-label="Design"></i>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-title">Design</p>
+                            <p class="card-text">
+                                J'adore le design. Lorsque je vois un élément qui pourrait être amélioré, je prends
+                                plaisir à le rendre plus esthétique.
+                                Je porte une attention particulière aux détails, que ce soit une interface graphique ou
+                                un site web.
+                                Mon objectif est de créer des designs attrayants qui captivent et inspirent.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--  Développement -->
+                <div class="col-lg-4 col-md-6"
+                    data-aos="fade-up">
+                    <div class="card">
+                        <div class="circle-container">
+                            <div class="circle">
+                                <i class="bi bi-code-slash"
+                                    aria-label="Développement"></i>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-title">Développement</p>
+                            <p class="card-text">
+                                Après le design, je plonge dans le développement.
+                                Le code me permet de donner vie aux concepts et de transformer les idées en expériences
+                                numériques.
+                                Chaque ligne de code reflète ma vision de la fonctionnalité et de l’élégance, illustrant
+                                mon engagement envers l’excellence.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Expansion et optimisation -->
+                <div class="col-lg-4 col-md-6"
+                    data-aos="fade-up">
+                    <div class="card">
+                        <div class="circle-container">
+                            <div class="circle">
+                                <i class="bi bi-cup-hot"
+                                    aria-label="Optimisation"></i>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-title">Optimisation</p>
+                            <p class="card-text">
+                                Aller au-delà de la création, c’est optimiser.
+                                Que ce soit pour des modèles ou des sites complets, je peaufine chaque projet après son
+                                développement.
+                                Grâce à des stratégies de blog et un référencement SEO de base, j’améliore la visibilité
+                                et l’impact en ligne,
+                                garantissant ainsi un maximum de portée et d’efficacité.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!--  À propos de moi -->
+    <section id="about">
+        <div class="container">
+            <h6 class="text-center">
+                <span class="btn btn-sm theme-button theme-text">Mais qui suis-je ?</span>
+            </h6>
+            <h2 class="section-heading text-center">À propos de moi</h2>
+            <p class="text-center muted-text mt-3 mb-4">Mon parcours en quelques mots :)</p>
+            <div class="row justify-content-center"
+                data-aos="fade-down"
+                data-aos-delay="200">
+
+                <!--  Image de profil -->
+                <div class="col-lg-5 about-portrait">
+                    <img src="assets/images/Portrait_2.jpg"
+                        class="img-fluid pic"
+                        alt="Portrait de Yowan Mberi">
+                </div>
+
+                <div class="col-lg-7">
+                    <p class="bio">
+                        Je m’appelle <strong>Yowan Mberi</strong>, développeur web passionné et résilient, animé par
+                        l’envie de bâtir des solutions numériques utiles, élégantes et accessibles. Ma première ligne de
+                        code ? Un bot Discord, en 2019. Depuis, je me suis spécialisé en développement web fullstack et
+                        je compte poursuivre mes études en cybersécurité.
+                    </p>
+                    <p class="bio">
+                        Mon moteur : concevoir des plateformes qui ont de l’impact. Qu’il s’agisse de déployer des sites
+                        rapides avec Django ou de rendre les données accessibles via Flask et des APIs, je cherche
+                        toujours à allier <strong>esthétique</strong>, <strong>fiabilité</strong> et
+                        <strong>accessibilité</strong>.
+                    </p>
+                    <p class="bio">
+                        Je crois en la puissance du code pour transformer les choses — au Congo comme ailleurs. Mon
+                        ambition ? Contribuer à la sécurité des infrastructures numériques et transmettre le flambeau
+                        aux générations futures. En attendant, vous pouvez découvrir mes projets ici :
+                        <a href="https://github.com/Yowan-MB"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="github-link"
+                            aria-label="Consulter mon profil GitHub">
+                            <i class="bi bi-github me-1"></i> <strong>@Yowan-MB</strong>
+                        </a>.
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--Mes Compétences -->
+    <section id="skills">
+        <div class="container">
+            <h6 class="text-center">
+                <span class="btn btn-sm theme-button theme-text">Que sais-je faire ?</span>
+            </h6>
+            <h2 class="section-heading text-center">Compétences</h2>
+            <p class="text-center muted-text mt-3 mb-4">
+                Voici quelques-unes des technologies qui font partie de mon stack actuel :
+            </p>
+
+            <div class="container">
+                <div class="row justify-content-center row-cols-4 mt-4 gy-4 skills-container"
+                    data-aos="fade-up"
+                    data-aos-delay="200">
+
+                    <!--  Première ligne : HTML, CSS, Bootstrap, JavaScript -->
+                    <div class="col">
+                        <div class="skill">
+                            <img class="skill-image"
+                                src="../Portfolio/assets/images/skills/HTML.svg"
+                                alt="HTML - Structuration Web"
+                                loading="lazy">
+                            <p class="skill-name">HTML</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="skill">
+                            <img class="skill-image"
+                                src="../Portfolio/assets/images/skills/CSS.svg"
+                                alt="CSS - Langage de style"
+                                loading="lazy">
+                            <p class="skill-name">CSS</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="skill">
+                            <img class="skill-image"
+                                src="../Portfolio/assets/images/skills/Bootstrap.svg"
+                                alt="Bootstrap - Framework CSS responsive"
+                                loading="lazy">
+                            <p class="skill-name">Bootstrap</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="skill">
+                            <img class="skill-image"
+                                src="../Portfolio/assets/images/skills/JS.svg"
+                                alt="JavaScript - Programmation web"
+                                loading="lazy">
+                            <p class="skill-name">JavaScript</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--  Deuxième ligne : Le reste des compétences -->
+                <div class="row justify-content-center row-cols-4 mt-4 gy-4 skills-container"
+                    data-aos="fade-up"
+                    data-aos-delay="300">
+                    <div class="col">
+                        <div class="skill">
+                            <img class="skill-image"
+                                src="../Portfolio/assets/images/skills/NodeJS.svg"
+                                alt="NodeJS - Backend JavaScript"
+                                loading="lazy">
+                            <p class="skill-name">NodeJS</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="skill">
+                            <img class="skill-image"
+                                src="../Portfolio/assets/images/skills/PHP.png"
+                                alt="PHP - Langage de programmation"
+                                loading="lazy">
+                            <p class="skill-name">PHP</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="skill">
+                            <img class="skill-image"
+                                src="../Portfolio/assets/images/skills/Python.svg"
+                                alt="Python - Programmation polyvalente"
+                                loading="lazy">
+                            <p class="skill-name">Python</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="skill">
+                            <img class="skill-image"
+                                src="../Portfolio/assets/images/skills/C.svg"
+                                alt="Langage de programmation C"
+                                loading="lazy">
+                            <p class="skill-name">C</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Mes Outils -->
+    <section id="tools">
+        <div class="container">
+            <h6 class="text-center">
+                <span class="btn btn-sm theme-button theme-text">Quels outils j'utilise ?</span>
+            </h6>
+            <h2 class="section-heading text-center">Outils</h2>
+            <p class="text-center muted-text mt-3 mb-4">
+                Voici les outils que j’utilise régulièrement dans mon workflow :
+            </p>
+
+            <div class="row justify-content-center row-cols-2 row-cols-md-3 row-cols-lg-6 mt-4 gy-4 tools-container"
+                data-aos="fade-down"
+                data-aos-delay="200">
+
+                <!-- VSCode -->
+                <div class="col">
+                    <div class="tool">
+                        <img class="tool-image"
+                            src="../Portfolio/assets/images/tools/vscode.svg"
+                            alt="VSCode - Éditeur de code"
+                            loading="lazy">
+                        <p class="tool-name">VSCode</p>
+                    </div>
+                </div>
+
+                <!-- GitHub -->
+                <div class="col">
+                    <div class="tool">
+                        <img class="tool-image"
+                            src="../Portfolio/assets/images/tools/github.svg"
+                            alt="GitHub - Gestion de versions"
+                            loading="lazy">
+                        <p class="tool-name">GitHub</p>
+                    </div>
+                </div>
+
+                <!-- Canva -->
+                <div class="col">
+                    <div class="tool">
+                        <img class="tool-image"
+                            src="../Portfolio/assets/images/tools/canva.svg"
+                            alt="Canva - Outil de conception graphique"
+                            loading="lazy">
+                        <p class="tool-name">Canva</p>
+                    </div>
+                </div>
+
+                <!-- Figma -->
+                <div class="col">
+                    <div class="tool">
+                        <img class="tool-image"
+                            src="../Portfolio/assets/images/tools/Figma.svg"
+                            alt="Figma - Prototypage et UI/UX design"
+                            loading="lazy">
+                        <p class="tool-name">Figma</p>
+                    </div>
+                </div>
+
+                <!-- ChatGPT -->
+                <div class="col">
+                    <div class="tool">
+                        <img class="tool-image"
+                            src="../Portfolio/assets/images/tools/ChatGPT.svg"
+                            alt="ChatGPT - Assistance IA"
+                            loading="lazy">
+                        <p class="tool-name">ChatGPT</p>
+                    </div>
+                </div>
+
+                <!-- Gemini -->
+                <div class="col">
+                    <div class="tool">
+                        <img class="tool-image"
+                            src="../Portfolio/assets/images/tools/Gemini.svg"
+                            alt="Gemini - Assistant IA"
+                            loading="lazy">
+                        <p class="tool-name">Gemini</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Mes Réalisations -->
+    <section id="projects">
+        <div class="container">
+            <h6 class="text-center">
+                <span class="btn btn-sm theme-button theme-text">Mes réalisations</span>
+            </h6>
+            <h2 class="section-heading text-center">Projets</h2>
+
+            <div class="row justify-content-center mt-4 gy-4 projects-container"
+                data-aos="fade-up"
+                data-aos-delay="200">
+
+                <!-- Projet : GospelVibes -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="card project-card">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center">
+                                <div class="col-2">
+                                    <img src="./assets/images/favicon.png"
+                                        class="img-fluid icon"
+                                        alt="Logo MusicPlayer"
+                                        loading="lazy">
+                                </div>
+                                <div class="col-7 p-0">
+                                    <a href="https://gospelvibes-opa8.onrender.com/"
+                                        class="card-title title"
+                                        target="_blank"
+                                        rel="noopener noreferrer">
+                                        GospelVibes
+                                    </a>
+                                    <p class="stacks m-0">Django | HTML | CSS | JavaScript | PostgreSQL</p>
+                                </div>
+                                <div class="col-3 align-middle">
+                                    <a href="https://gospelvibes-opa8.onrender.com/"
+                                        class="btn btn-sm primary-bg-btn rounded-5"
+                                        target="_blank"
+                                        rel="noopener noreferrer">
+                                        Live <i class="bi bi-arrow-up-right-circle-fill"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description-container">
+                            <p class="description">
+                                GospelVibes, une application de streaming musical axée sur le gospel.
+                            </p>
+                        </div>
+                        <div class="banner-container">
+                            <div class="overlay">
+                                <a href="./assets/images/capture.png"
+                                    class="btn"
+                                    aria-label="Bannière GospelVibes"
+                                    target="_blank">
+                                    <i class="bi bi-arrow-up-right-circle-fill"></i>
+                                </a>
+                            </div>
+                            <img src="./assets/images/capture.png"
+                                class="card-img-top banner"
+                                alt="Bannière MusicPlayer"
+                                loading="lazy">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projet : MonConvertisseur -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="card project-card">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center">
+                                <div class="col-2">
+                                    <img src="./assets/images/convert.png"
+                                        class="img-fluid icon"
+                                        alt="Logo MonConvertisseur"
+                                        loading="lazy">
+                                </div>
+                                <div class="col-7 p-0">
+                                    <a href="https://github.com/Yowan-MB/MonConvertisseur"
+                                        class="card-title title"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        aria-label="Voir le projet MonConvertisseur">
+                                        MonConvertisseur
+                                    </a>
+                                    <p class="stacks m-0">Flask | Tailwind CSS | HTML | JavaScript </p>
+                                </div>
+                                <div class="col-3 align-middle">
+                                    <a href="https://monconvertisseur.onrender.com/"
+                                        class="btn btn-sm primary-bg-btn rounded-5"
+                                        target="_blank"
+                                        rel="noopener noreferrer">
+                                        Live <i class="bi bi-arrow-up-right-circle-fill"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description-container">
+                            <p class="description">
+                                Convertisseur de devises avec prise en charge des monnaies africaines.
+                            </p>
+                        </div>
+                        <div class="banner-container">
+                            <div class="overlay">
+                                <a href="./assets/images/monconvertisseur.png"
+                                    class="btn"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    aria-label="Voir la bannière MonConvertisseur">
+                                    <i class="bi bi-arrow-up-right-circle-fill"></i>
+                                </a>
+                            </div>
+                            <img src="./assets/images/monconvertisseur.png"
+                                class="card-img-top banner"
+                                alt="Bannière MonConvertisseur"
+                                loading="lazy">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="card project-card">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center">
+                                <div class="col-2">
+                                    <img src="./assets/images/logo-restaurant.svg"
+                                        class="img-fluid icon"
+                                        alt="Icône Site Restaurant"
+                                        loading="lazy">
+                                </div>
+                                <div class="col-7 p-0">
+                                    <a href="https://github.com/Yowan-MB/Site_restaurant"
+                                        class="card-title title"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        aria-label="Voir le projet Site Restaurant">
+                                        Site Restaurant
+                                    </a>
+                                    <p class="stacks m-0">PHP | SCSS | JavaScript | HTML |MVC </p>
+                                </div>
+                                <div class="col-3 align-middle">
+                                    <a href="https://github.com/Yowan-MB/Site_restaurant"
+                                        class="btn btn-sm primary-bg-btn rounded-5"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        aria-label="Accéder au dépôt GitHub">
+                                        Code <i class="bi bi-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description-container">
+                            <p class="description">
+                                Application web MVC pour restaurant. Interface moderne et modulaire.
+                            </p>
+                        </div>
+                        <div class="banner-container">
+                            <div class="overlay">
+                                <a href="./assets/images/restaurant.png"
+                                    class="btn"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    aria-label="Voir la bannière Site Restaurant">
+                                    <i class="bi bi-arrow-up-right-circle-fill"></i>
+                                </a>
+                            </div>
+                            <img src="./assets/images/restaurant.png"
+                                class="card-img-top banner"
+                                alt="Bannière Site Restaurant"
+                                loading="lazy">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projet : Quiz-Maste -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="card project-card">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center">
+                                <div class="col-2">
+                                    <img src="./assets/images/logo_quizmaster.png"
+                                        class="img-fluid icon"
+                                        alt="Logo MusicPlayer"
+                                        loading="lazy">
+                                </div>
+                                <div class="col-7 p-0">
+                                    <a href="https://jeu-master-quiz.onrender.com/"
+                                        class="card-title title"
+                                        target="_blank"
+                                        rel="noopener noreferrer">
+                                        Quiz Master
+                                    </a>
+                                    <p class="stacks m-0">Flask | HTML | CSS | JavaScript</p>
+                                </div>
+                                <div class="col-3 align-middle">
+                                    <a href="https://jeu-master-quiz.onrender.com/"
+                                        class="btn btn-sm primary-bg-btn rounded-5"
+                                        target="_blank"
+                                        rel="noopener noreferrer">
+                                        Live <i class="bi bi-arrow-up-right-circle-fill"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description-container">
+                            <p class="description"> Application de quiz dynamique avec niveaux de difficulté et score
+                                final.
+                            </p>
+                        </div>
+                        <div class="banner-container">
+                            <div class="overlay">
+                                <a href="./assets/images/quizmaster.png"
+                                    class="btn"
+                                    aria-label="Bannière GospelVibes"
+                                    target="_blank">
+                                    <i class="bi bi-arrow-up-right-circle-fill"></i>
+                                </a>
+                            </div>
+                            <img src="./assets/images/quizmaster.png"
+                                class="card-img-top banner"
+                                alt="Bannière MusicPlayer"
+                                loading="lazy">
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Témoignages -->
+    <section id="testimonials">
+        <div class="container">
+            <h6 class="text-center">
+                <span class="btn btn-sm theme-button theme-text">Ce qu’ils pensent ?</span>
+            </h6>
+            <h2 class="section-heading text-center">Témoignages</h2>
+            <p class="text-center muted-text mt-3 mb-4">Ce que mes amis et clients disent de moi.</p>
+
+            <div class="row mt-4 gy-4"
+                data-aos="fade-down"
+                data-aos-delay="200">
+                <div class="col-md-12">
+                    <div id="testimonial-slider"
+                        class="owl-carousel">
+
+                        <!-- Témoignage 1 -->
+                        <div class="testimonial">
+                            <p class="description">
+                                Ton intelligence et ta créativité sont une source d’inspiration. Tu apportes une énergie
+                                positive partout où tu vas.
+                                Travailler avec toi est toujours une expérience enrichissante !
+                            </p>
+                            <div class="pic">
+                                <img src="./assets/images/hebral-dhalous.jpg"
+                                    alt="Portrait de Hebral Dhalous"
+                                    loading="lazy">
+                            </div>
+                            <div class="detail">
+                                <h4 class="name">Hebral Dhalous</h4>
+                                <small class="role">Développeur</small>
+                            </div>
+                        </div>
+
+                        <!-- Témoignage 2 -->
+                        <div class="testimonial">
+                            <p class="description">
+                                Frère, j’admire ton travail acharné. Tes efforts en disent long sur ta détermination. Tu
+                                es incroyable ! Un grand respect pour toi 🤜🤛
+                            </p>
+                            <div class="pic">
+                                <img src="./assets/images/mabiala.jpg"
+                                    alt="Portrait de Mabiala"
+                                    loading="lazy">
+                            </div>
+                            <div class="detail">
+                                <h4 class="name">Antoch</h4>
+                                <small class="role">Mabiala</small>
+                            </div>
+                        </div>
+
+                        <!-- Témoignage 3 -->
+                        <div class="testimonial">
+                            <p class="description">
+                                L’engagement et le sérieux de Yowan sont visibles dans tout ce qu’il fait. Son approche
+                                du développement web est impressionnante.
+                            </p>
+                            <div class="pic">
+                                <img src="./assets/images/Alka-Ink.jpg"
+                                    alt="Portrait de Alka Ink"
+                                    loading="lazy">
+                            </div>
+                            <div class="detail">
+                                <h4 class="name">Alka Ink</h4>
+                                <small class="role">Développeur Web</small>
+                            </div>
+                        </div>
+
+                        <!-- Témoignage 4 -->
+                        <div class="testimonial">
+                            <p class="description">
+                                Travailler avec Yowan est une expérience incroyable. Son dévouement pour le
+                                développement web est évident à travers ses créations.
+                                Il sait transformer des idées en projets concrets et créer des sites qui dépassent les
+                                attentes.
+                            </p>
+                            <div class="pic">
+                                <img src="./assets/images/Muji-Waramé.jpg"
+                                    alt="Portrait de Muji Waramé"
+                                    loading="lazy">
+                            </div>
+                            <div class="detail">
+                                <h4 class="name">Muji Waramé</h4>
+                                <small class="role">Développeur logiciel</small>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Blogs 
+    <section id="blogs">
+        <div class="container">
+            <h6 class="text-center">
+                <span class="btn btn-sm theme-button theme-text">Est-ce que j'écris ?</span>
+            </h6>
+            <h2 class="section-heading text-center">Mes Articles</h2>
+            <p class="text-center muted-text mt-3 mb-4">
+                De conseils tech aux guides gaming, voici quelques articles que tu peux consulter si cela t'intéresse.
+            </p>
+
+            <div class="row justify-content-center gy-4"
+                data-aos="fade-up"
+                data-aos-delay="600">
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card article-card">
+                        <div class="banner-container position-relative">
+                            <div class="position-absolute top-0 end-0">
+                                <span class="badge">Gaming</span>
+                            </div>
+                            <img src="https://gamesroid.com/wp-content/uploads/2023/10/How-to-Update-Township.webp"
+                                class="card-img-top banner"
+                                alt="Comment mettre à jour Township ?"
+                                loading="lazy">
+                        </div>
+                        <div class="card-body">
+                            <a href="https://gamesroid.com/how-to-update-township-game/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label="Lire l'article sur la mise à jour de Township">
+                                <h6 class="card-title">Comment mettre à jour Township – Guide pour toutes les
+                                    plateformes !</h6>
+                            </a>
+                            <p class="card-text description">Assure-toi que ton jeu Township est bien à jour et découvre
+                                toutes les nouvelles fonctionnalités.</p>
+                            <a href="https://gamesroid.com/how-to-update-township-game/"
+                                class="text-decoration-none"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                <span class="read-more">Lire Plus <i class="bi bi-arrow-up-right"></i></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="card article-card">
+                        <div class="banner-container position-relative">
+                            <div class="position-absolute top-0 end-0">
+                                <span class="badge">Gaming</span>
+                            </div>
+                            <img src="https://gamesroid.com/wp-content/uploads/2023/09/Popular-Mobile-Games.webp"
+                                class="card-img-top banner"
+                                alt="Les jeux mobiles les plus populaires en Inde"
+                                loading="lazy">
+                        </div>
+                        <div class="card-body">
+                            <a href="https://gamesroid.com/most-popular-mobile-games-in-india/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label="Lire l'article sur les jeux mobiles populaires en Inde">
+                                <h6 class="card-title">Les jeux mobiles les plus populaires en Inde – Android & iOS 
+                                </h6>
+                            </a>
+                            <p class="card-text description">Découvre les jeux mobiles les plus tendances et populaires
+                                en Inde !</p>
+                            <a href="https://gamesroid.com/most-popular-mobile-games-in-india/"
+                                class="text-decoration-none"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                <span class="read-more">Lire Plus <i class="bi bi-arrow-up-right"></i></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="card article-card">
+                        <div class="banner-container position-relative">
+                            <div class="position-absolute top-0 end-0">
+                                <span class="badge">Gaming</span>
+                            </div>
+                            <img src="https://gamesroid.com/wp-content/uploads/2024/01/Discord-Banners.webp"
+                                class="card-img-top banner"
+                                alt="Meilleurs bannières Discord et GIFs"
+                                loading="lazy">
+                        </div>
+                        <div class="card-body">
+                            <a href="https://gamesroid.com/best-discord-banners/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label="Lire l'article sur les bannières Discord">
+                                <h6 class="card-title">100+ Meilleures bannières et GIFs pour Discord</h6>
+                            </a>
+                            <p class="card-text description">Des bannières animées aux images stylées, découvre la
+                                collection ultime pour Discord.</p>
+                            <a href="https://gamesroid.com/best-discord-banners/"
+                                class="text-decoration-none"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                <span class="read-more">Lire Plus <i class="bi bi-arrow-up-right"></i></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Contact -->
+    <section id="contact">
+        <div class="container">
+            <h6 class="text-center">
+                <span class="btn btn-sm theme-button theme-text">Et ensuite ?</span>
+            </h6>
+            <h2 class="section-heading text-center">Me Contacter</h2>
+            <p class="text-center muted-text mt-3 mb-4">
+                Intéressé par une collaboration ? Discutons ensemble, je serai ravi d’échanger avec vous !
+            </p>
+
+            <div class="row justify-content-center"
+                data-aos="fade-down"
+                data-aos-delay="500">
+                <div class="col-lg-8">
+                    <div class="contact-form">
+                        <form action="https://formspree.io/f/xldjelqg"
+                            method="POST">
+                            <div class="row g-2">
+
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text"
+                                            class="form-control"
+                                            id="name"
+                                            name="name"
+                                            placeholder="Votre nom *"
+                                            required
+                                            aria-label="Entrez votre nom">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="email"
+                                            class="form-control"
+                                            id="email"
+                                            name="email"
+                                            placeholder="Votre email *"
+                                            required
+                                            aria-label="Entrez votre email">
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="text"
+                                            class="form-control"
+                                            id="subject"
+                                            name="subject"
+                                            placeholder="Sujet *"
+                                            required
+                                            aria-label="Indiquez le sujet de votre message">
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <textarea class="form-control"
+                                            id="message"
+                                            name="message"
+                                            rows="5"
+                                            placeholder="Votre message *"
+                                            required></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <button type="submit"
+                                        class="btn primary-bg-btn mt-2"
+                                        aria-label="Envoyer le message">
+                                        Envoyer <i class="bi bi-arrow-up-right"></i>
+                                    </button>
+                                </div>
+
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--  Footer -->
+    <footer id="footer">
+        <div class="container">
+            <p class="text-center copyright-text">
+                © 2025 - <span>Yowan Mberi</span> - Développeur web full-stack
+            </p>
+        </div>
+    </footer>
+
+    <!--  Bouton retour en haut -->
+    <button class="btn"
+        type="button"
+        aria-label="Retour en haut"
+        id="backToTopButton"
+        onclick="scrollToTop()">
+        <span aria-label="Retourner en haut">
+            <svg xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                fill="currentColor"
+                class="bi bi-arrow-up-square"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm8.5 9.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z">
+                </path>
+            </svg>
+        </span>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="assets/js/aos.js"
+        defer></script>
+    <script src="assets/js/jquery-3.7.1.min.js"
+        defer></script>
+    <script src="assets/js/owl.carousel.min.js"
+        defer></script>
+    <script src="assets/js/bootstrap.min.js"
+        defer></script>
+    <script src="assets/js/script.js"
+        defer></script>
+
+</body>
+
+</html>
