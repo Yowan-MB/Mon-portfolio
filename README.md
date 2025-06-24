@@ -43,13 +43,13 @@ Ce site présente plusieurs projets personnels, chacun illustrant une compétenc
 Tu peux me retrouver sur :
 
 - GitHub : [@Yowan-MB](https://github.com/Yowan-MB)
-- LinkedIn : *(à ajouter si tu en as un)*
-- Email : *(optionnel si tu veux le rendre public)*
+- LinkedIn : www.linkedin.com/in/ted-bakala-45a759224
+- Email : tedmberi@gmail.com
 
 
  📝 Licence
 
-Ce projet est open-source et librement réutilisable à des fins personnelles ou éducatives. Pour toute autre utilisation, merci de me contacter.
+Ce projet n'est pas open-source et n'est pas réutilisable à des fins personnelles ou éducatives. Pour toute autre utilisation, merci de me contacter.
 
 
 > Ce portfolio est en constante évolution. N’hésite pas à me faire part de tes retours ou suggestions !
