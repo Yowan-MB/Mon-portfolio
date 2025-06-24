@@ -35,7 +35,7 @@ Ce site présente plusieurs projets personnels, chacun illustrant une compétenc
 
  📸 Aperçu visuel
 
-![Aperçu du portfolio](./Portfolio-Website.png)
+![Aperçu du portfolio](./Portolio-Website.png)
 
 
  📫 Me contacter
